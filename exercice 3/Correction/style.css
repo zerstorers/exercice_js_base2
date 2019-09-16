@@ -1,0 +1,48 @@
+body {
+    font-family: "roboto" , "sans-cherif";
+}
+
+nav, main, footer {
+    margin: auto;
+    width: 1140px;
+}
+
+header {
+    background-color: black;
+}
+
+img, ul, li, article {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+section img{
+    width: 60%;
+}
+
+article {
+    width: 33%;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+
+main section p {
+    background-color: lightgrey;
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 5px;
+    padding: 1em 0;
+}
+
+article a {
+    border: 1px solid grey;
+    padding: .5em ;
+    color: grey;
+    border-radius: 5px;
+}
+
